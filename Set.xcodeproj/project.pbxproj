@@ -7,12 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		367B00D52038FF7A00DE164E /* OldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 367B00D42038FF7A00DE164E /* OldViewController.swift */; };
+		369192192032944000099E58 /* SetCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369192182032944000099E58 /* SetCardView.swift */; };
+		3691921B20338A0100099E58 /* SetSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691921A20338A0100099E58 /* SetSymbolView.swift */; };
+		3691921D20366C9800099E58 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691921C20366C9800099E58 /* Grid.swift */; };
+		3691921F2036A9BD00099E58 /* SetGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3691921E2036A9BD00099E58 /* SetGridView.swift */; };
 		36AC4205202906D100830462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC4204202906D100830462 /* AppDelegate.swift */; };
-		36AC4207202906D200830462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC4206202906D200830462 /* ViewController.swift */; };
+		36AC4207202906D200830462 /* SetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC4206202906D200830462 /* SetViewController.swift */; };
 		36AC420A202906D200830462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AC4208202906D200830462 /* Main.storyboard */; };
 		36AC420C202906D200830462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AC420B202906D200830462 /* Assets.xcassets */; };
 		36AC420F202906D200830462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AC420D202906D200830462 /* LaunchScreen.storyboard */; };
 		36AC421A202906D200830462 /* SetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC4219202906D200830462 /* SetTests.swift */; };
+		36AC42262029093500830462 /* SetCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC42252029093500830462 /* SetCard.swift */; };
+		36AC4228202917DA00830462 /* SetGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC4227202917DA00830462 /* SetGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +33,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		367B00D42038FF7A00DE164E /* OldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldViewController.swift; sourceTree = "<group>"; };
+		369192182032944000099E58 /* SetCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCardView.swift; sourceTree = "<group>"; };
+		3691921A20338A0100099E58 /* SetSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSymbolView.swift; sourceTree = "<group>"; };
+		3691921C20366C9800099E58 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Grid.swift; path = ../../../../Downloads/Grid.swift; sourceTree = "<group>"; };
+		3691921E2036A9BD00099E58 /* SetGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGridView.swift; sourceTree = "<group>"; };
 		36AC4201202906D100830462 /* Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Set.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC4204202906D100830462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36AC4206202906D200830462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36AC4206202906D200830462 /* SetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetViewController.swift; sourceTree = "<group>"; };
 		36AC4209202906D200830462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36AC420B202906D200830462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36AC420E202906D200830462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +48,8 @@
 		36AC4215202906D200830462 /* SetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC4219202906D200830462 /* SetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetTests.swift; sourceTree = "<group>"; };
 		36AC421B202906D200830462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AC42252029093500830462 /* SetCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetCard.swift; sourceTree = "<group>"; };
+		36AC4227202917DA00830462 /* SetGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +91,15 @@
 		36AC4203202906D100830462 /* Set */ = {
 			isa = PBXGroup;
 			children = (
-				36AC4204202906D100830462 /* AppDelegate.swift */,
-				36AC4206202906D200830462 /* ViewController.swift */,
+				369192182032944000099E58 /* SetCardView.swift */,
+				3691921A20338A0100099E58 /* SetSymbolView.swift */,
+				3691921E2036A9BD00099E58 /* SetGridView.swift */,
+				3691921C20366C9800099E58 /* Grid.swift */,
+				36AC4224202906EB00830462 /* Supporting files */,
+				36AC4206202906D200830462 /* SetViewController.swift */,
+				36AC42252029093500830462 /* SetCard.swift */,
+				36AC4227202917DA00830462 /* SetGame.swift */,
 				36AC4208202906D200830462 /* Main.storyboard */,
-				36AC420B202906D200830462 /* Assets.xcassets */,
-				36AC420D202906D200830462 /* LaunchScreen.storyboard */,
 				36AC4210202906D200830462 /* Info.plist */,
 			);
 			path = Set;
@@ -94,6 +112,17 @@
 				36AC421B202906D200830462 /* Info.plist */,
 			);
 			path = SetTests;
+			sourceTree = "<group>";
+		};
+		36AC4224202906EB00830462 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				367B00D42038FF7A00DE164E /* OldViewController.swift */,
+				36AC4204202906D100830462 /* AppDelegate.swift */,
+				36AC420B202906D200830462 /* Assets.xcassets */,
+				36AC420D202906D200830462 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36AC4207202906D200830462 /* ViewController.swift in Sources */,
+				36AC42262029093500830462 /* SetCard.swift in Sources */,
+				3691921F2036A9BD00099E58 /* SetGridView.swift in Sources */,
+				367B00D52038FF7A00DE164E /* OldViewController.swift in Sources */,
+				369192192032944000099E58 /* SetCardView.swift in Sources */,
+				36AC4207202906D200830462 /* SetViewController.swift in Sources */,
+				3691921B20338A0100099E58 /* SetSymbolView.swift in Sources */,
+				36AC4228202917DA00830462 /* SetGame.swift in Sources */,
+				3691921D20366C9800099E58 /* Grid.swift in Sources */,
 				36AC4205202906D100830462 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZH8LX3BZ7;
 				INFOPLIST_FILE = Set/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = its.me.stephen.Set;
@@ -368,6 +405,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3ZH8LX3BZ7;
 				INFOPLIST_FILE = Set/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = its.me.stephen.Set;
