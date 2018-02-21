@@ -58,7 +58,7 @@ class SetViewController: UIViewController {
 
     private func updateScoreLabel() {
         let attributes: [NSAttributedStringKey:Any] = [
-            .foregroundColor : #colorLiteral(red: 0.4513868093, green: 0.9930960536, blue: 1, alpha: 1)
+            .foregroundColor : colors.scoreLabel
         ]
         let attributedString = NSAttributedString(string: "Score: \(game.score)", attributes: attributes)
         scoreLabel.attributedText = attributedString
@@ -80,9 +80,9 @@ class SetViewController: UIViewController {
             if game.selectedCards.contains(card) {
                 cardView.layer.borderWidth = selectionBorderWidth
                 if let match = game.isMatch {
-                    cardView.layer.borderColor = match ? #colorLiteral(red: 0.4666666687, green: 0.7647058964, blue: 0.2666666806, alpha: 1) : #colorLiteral(red: 0.9254902005, green: 0.2352941185, blue: 0.1019607857, alpha: 1)
+                    cardView.layer.borderColor = match ? colors.match : colors.mismatch
                 } else {
-                    cardView.layer.borderColor = #colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)
+                    cardView.layer.borderColor = colors.selection
                 }
             } else {
                 cardView.layer.borderWidth = 0.0
@@ -104,6 +104,13 @@ extension SetViewController {
         static let gridInsetToCellWidth: CGFloat = 0.03
         static let borderWidthToCellWidth: CGFloat = 0.02
         static let cornerRadiusToCellWidth: CGFloat = 0.05
+    }
+    
+    private struct colors {
+        static let mismatch: CGColor = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
+        static let match: CGColor = #colorLiteral(red: 0, green: 1, blue: 0, alpha: 1)
+        static let selection: CGColor = #colorLiteral(red: 0, green: 0, blue: 1, alpha: 1)
+        static let scoreLabel: CGColor = #colorLiteral(red: 0, green: 1, blue: 1, alpha: 1)
     }
     
     private var gridInset: CGFloat { return cardFrame.grid.cellSize.width * SizeRatio.gridInsetToCellWidth }
