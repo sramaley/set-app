@@ -110,7 +110,7 @@ extension SetViewController {
         static let mismatch: CGColor = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
         static let match: CGColor = #colorLiteral(red: 0, green: 1, blue: 0, alpha: 1)
         static let selection: CGColor = #colorLiteral(red: 0, green: 0, blue: 1, alpha: 1)
-        static let scoreLabel: CGColor = #colorLiteral(red: 0, green: 1, blue: 1, alpha: 1)
+        static let scoreLabel: UIColor = #colorLiteral(red: 0, green: 1, blue: 1, alpha: 1)
     }
     
     private var gridInset: CGFloat { return cardFrame.grid.cellSize.width * SizeRatio.gridInsetToCellWidth }
